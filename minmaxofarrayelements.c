@@ -19,10 +19,13 @@ int main()
             max=a[i];
         }
     }
+ for(i=0;i<n;i++)
+     {
         if(a[i]<min)
         {
         min=a[i];
         }
+     }
     printf("the max no is %d\n",max);
     printf("the min no is %d\n",min);
 }
